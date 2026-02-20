@@ -28,66 +28,7 @@ Bu ortamda klasik Round-Robin ile, öğrenebilen bir yöntem olan Softmax Bandit
 
 Softmax yöntemi her sunucu için bir Q-değeri (beklenen ödül) tutar.
 
-Olasılık hesabı:
-
-𝑃
-(
-𝑎
-)
-=
-𝑒
-𝑄
-(
-𝑎
-)
-/
-𝜏
-∑
-𝑒
-𝑄
-(
-𝑏
-)
-/
-𝜏
-P(a)=
-∑e
-Q(b)/τ
-e
-Q(a)/τ
-	​
-
-
-τ (tau) → sıcaklık parametresi
-
-Küçük τ → daha fazla sömürü (en iyi bilinen sunucuya yönelme)
-
-Büyük τ → daha fazla keşif
-
-Ödül fonksiyonu:
-
-𝑅
-𝑒
-𝑤
-𝑎
-𝑟
-𝑑
-=
-1
-𝐿
-𝑎
-𝑡
-𝑒
-𝑛
-𝑐
-𝑦
-Reward=
-Latency
-1
-	​
-
-
-Çünkü düşük gecikme = yüksek performans.
+ düşük gecikme = yüksek performans.
 
 2️⃣ Round-Robin
 
