@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # --- PARAMETRELER ---
 K = 5                # Sunucu sayısı
 STEPS = 2000         # Toplam istek (adım) sayısı
-TAU = 0.1            # Softmax Sıcaklık Parametresi (Düşük = Sömürü, Yüksek = Keşif)
+TAU = 0.3            # Softmax Sıcaklık Parametresi (Düşük = Sömürü, Yüksek = Keşif)
 WALK_STD = 0.01      # Sunucu performanslarının ne kadar hızlı değişeceği (Gürültü)
 
 class ServerCluster:
